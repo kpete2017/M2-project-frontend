@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+
+
+body{
+    color: whitesmoke;
+    text-shadow:1px 1px hsl(0, 0%, 0%);
+    font-family: 'Roboto', sans-serif;
+    background-image: url("/background_images/media-copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+}
+    
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 72px;
+    margin: 0;
+}
+#submit{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+form > input {
+   margin: .5rem;
+   border: none;
+   background-color: hsl(0, 0%, 90%);
+}
+
+#submit-button{
+    display: block;
+    border: none;
+    background-color: hsla(261, 68%, 6%, 1);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    color: whitesmoke;
+    box-shadow: 
+        inset 1px 1px hsl(261, 95%, 90%),
+        inset -1px -2px hsl(261, 95%, 20%);
+}
+
+#name {
+    margin-left: 2.3rem;
+}
+
+#new-account{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#account-button{
+    display: block;
+    border: none;
+    background-color: hsla(261, 68%, 6%, 1);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    color: whitesmoke;
+    box-shadow: 
+        inset 1px 1px hsl(261, 95%, 90%),
+        inset -1px -2px hsl(261, 95%, 20%);
+}
+
+
+main {
+    overflow:auto;
+    height:90vh; 
+    width:100%;
+
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+  /* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */ */
